@@ -3,9 +3,27 @@
 <head>
   <title>Rock Paper Scissors</title>
   <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body> 
-  <script src="script.js">
-  </script>
-</body>
+<body>
+  <div id="title">
+    <h1 class="h1-title">ROCK, PAPER, SCISSORS!</h1>
+  </div>
+  <div id="buttons">
+    <div class="button-container">
+      <img src="img/rock.png" class="button" alt="rock" id="rock">
+    </div>  
+    <div class="button-container">
+      <img src="img/paper.png" class="button" alt="paper" id="paper">
+    </div>
+    <div class="button-container">
+      <img src="img/scissors.png" class="button" alt="scissors" id="scissors">
+    </div>
+  </div>
+  <div id="scores">
+    <p id="player-score-text">Player Score:&nbsp</p><span id="player-score">0</span>
+    <p id="computer-score-text">Computer Score:&nbsp</p><span id="computer-score">0</span>
+  </div>
+  <p id="round-results"></p>
+<script src="script.js"></script>
 </html>
